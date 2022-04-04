@@ -2,7 +2,8 @@ package Seven;
 
 public class Troll {
     public static void main(String[] args) {
-        System.out.println("Hey");
+        String ans = disemvowel("haha let's see hOw this Goes");
+        System.out.println(ans);
     }
 
     public static String disemvowel(String str) {
