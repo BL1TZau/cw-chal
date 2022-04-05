@@ -8,7 +8,6 @@ public class DescendingOrder {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-        System.out.println("oks");
     }
 
     public static int sortDesc(final int num) {
@@ -21,7 +20,6 @@ public class DescendingOrder {
             intArray[i] = Integer.valueOf(numStringArray[i]);
         }
 
-        int highest = 0;
         int j;
         int helper;
         for (i = 0; i < intArray.length; i++) {
