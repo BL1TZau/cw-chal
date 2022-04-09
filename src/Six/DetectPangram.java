@@ -43,6 +43,5 @@ public class DetectPangram {
             if (!sentence.toLowerCase().contains("" + c)) // contains works because "" + ch = string
                 return false;
         return true;
-
     }
 }
